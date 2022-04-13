@@ -1,0 +1,319 @@
+{
+  "field_presence_infos": {
+    "And": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Asc": [
+      []
+    ],
+    "Avg": [
+      []
+    ],
+    "Between": [
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "ColUnit": [
+      [
+        true
+      ]
+    ],
+    "Column": [
+      [
+        true
+      ]
+    ],
+    "Count": [
+      []
+    ],
+    "Desc": [
+      []
+    ],
+    "Eq": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Ge": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Gt": [
+      [
+        true,
+        true
+      ]
+    ],
+    "In": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Le": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Like": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Lt": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Max": [
+      []
+    ],
+    "Min": [
+      []
+    ],
+    "Minus": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Ne": [
+      [
+        true,
+        true
+      ]
+    ],
+    "NoneAggOp": [
+      []
+    ],
+    "Not": [
+      [
+        true
+      ]
+    ],
+    "Or": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Plus": [
+      [
+        true,
+        true
+      ]
+    ],
+    "Sum": [
+      []
+    ],
+    "Table": [
+      [
+        "int"
+      ]
+    ],
+    "TableUnitSql": [
+      [
+        true
+      ]
+    ],
+    "Terminal": [
+      []
+    ],
+    "ValSql": [
+      [
+        true
+      ]
+    ],
+    "agg": [
+      [
+        true,
+        true
+      ]
+    ],
+    "col_unit": [
+      [
+        true,
+        "int",
+        "bool"
+      ]
+    ],
+    "from": [
+      [
+        true,
+        false
+      ]
+    ],
+    "order_by": [
+      [
+        true,
+        true
+      ]
+    ],
+    "select": [
+      [
+        "bool",
+        false
+      ],
+      [
+        "bool",
+        true
+      ]
+    ],
+    "sql": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "sql_groupby": [
+      [
+        false,
+        false
+      ],
+      [
+        true,
+        false
+      ],
+      [
+        true,
+        true
+      ]
+    ],
+    "sql_ieu": [
+      [
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        true
+      ],
+      [
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        false,
+        false
+      ]
+    ],
+    "sql_orderby": [
+      [
+        false,
+        "bool"
+      ],
+      [
+        true,
+        "bool"
+      ]
+    ],
+    "sql_where": [
+      [
+        false
+      ],
+      [
+        true
+      ]
+    ]
+  },
+  "primitive_types": [
+    "NoneType",
+    "bool",
+    "int"
+  ],
+  "seq_lengths": {
+    "agg*": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "col_unit*": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "table_unit*": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "val_unit*": [
+      1,
+      2,
+      3
+    ]
+  },
+  "sum_type_constructors": {
+    "agg_type": [
+      "Avg",
+      "Count",
+      "Max",
+      "Min",
+      "NoneAggOp",
+      "Sum"
+    ],
+    "cond": [
+      "And",
+      "Between",
+      "Eq",
+      "Ge",
+      "Gt",
+      "In",
+      "Le",
+      "Like",
+      "Lt",
+      "Ne",
+      "Not",
+      "Or"
+    ],
+    "order": [
+      "Asc",
+      "Desc"
+    ],
+    "table_unit_seq_elem": [
+      "Table",
+      "TableUnitSql"
+    ],
+    "val": [
+      "ColUnit",
+      "Terminal",
+      "ValSql"
+    ],
+    "val_unit": [
+      "Column",
+      "Minus",
+      "Plus"
+    ],
+    "val_unit_seq_elem": [
+      "Column",
+      "Minus",
+      "Plus"
+    ]
+  }
+}

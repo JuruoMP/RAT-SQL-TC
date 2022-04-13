@@ -1,0 +1,1 @@
+{"0": "SELECT 改变了AGG", "1": "SELECT 删除了列", "2": "SELECT 增加了列", "3": "orderBy改变了", "4": "改变了LIMIT", "5": "FROM 增加了表连接", "6": "FROM 删除了表连接", "7": "改变了except", "8": "WHERE 增加了列条件", "9": "groupby增加了列", "10": "SELECT 改变了DISTINCT", "11": "WHERE 增加了条件and/or", "12": "WHERE 删除了条件", "13": "改变了intersect", "14": "groupby删除了列", "15": "改变了union", "16": "Join 增加了条件"}
